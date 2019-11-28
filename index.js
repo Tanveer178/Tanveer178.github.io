@@ -23,7 +23,7 @@ var	panel1 = d3.select("body")
          			.attr("x", 0)
          			.attr("y", 0)
          			.attr("height", height)
-         			.attr("width", width)
+         			.attr("width", width*0.30)
          			.style("stroke", 'black')
          			.style("fill", "#6EF6B6")
          			.style("stroke-width", 1);
