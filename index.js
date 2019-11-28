@@ -198,7 +198,7 @@ panel2.append("rect")
              			.attr("x", 0)
              			.attr("y", 0)
              			.attr("height", height)
-             			.attr("width", 1349 - width)
+             			.attr("width", width * 0.687)
              			.style("stroke", 'black')
              			.style("fill", "#E9FCF3")
              			.style("stroke-width", 1);
