@@ -1,5 +1,5 @@
-var	width = 400,
-	height = 654;
+var	width = window.innerWidth,
+	height = window.innerHeight;
 
 	var tooltip = d3.select("body")
  	.append("div")
@@ -15,7 +15,7 @@ var	width = 400,
 
 var	panel1 = d3.select("body")
 	.append("svg")
-		.attr("width", width)
+		.attr("width", width*0.30)
 		.attr("height", height)
     .attr("border",1)
 	.append("g");
@@ -191,7 +191,7 @@ var	panel1 = d3.select("body")
 
 var	panel2 = d3.select("body")
     	.append("svg")
-    		.attr("width", 1349 - width)
+    		.attr("width", width * 0.687)
     		.attr("height", height )
     	.append("g");
 panel2.append("rect")
