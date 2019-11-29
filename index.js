@@ -13,10 +13,19 @@ var	width = 400,
     .style("padding", "5px");
 
 
-var	panel1 = d3.select("body")
+		// var svg = d3.select("div#container")
+		//   .append("svg")
+		//   .attr("preserveAspectRatio", "xMinYMin meet")
+		//   .attr("viewBox", "0 0 300 300")
+		//   .classed("svg-content", true);
+
+var	panel1 = d3.select("div#container")
 	.append("svg")
-		.attr("width", width)
-		.attr("height", height)
+		// .attr("width", width)
+		// .attr("height", height)
+		.attr("preserveAspectRatio", "xMinYMin meet")
+		.attr("viewBox", "0 0 1350 654")
+		.classed("svg-content", true)
     .attr("border",1)
 	.append("g");
   panel1.append("rect")
@@ -189,10 +198,13 @@ var	panel1 = d3.select("body")
 
 
 
-var	panel2 = d3.select("body")
+var	panel2 = d3.select("div#container")
     	.append("svg")
-    		.attr("width", 1349 - width)
-    		.attr("height", height )
+    		// .attr("width", 1349 - width)
+    		// .attr("height", height )
+				.attr("preserveAspectRatio", "xMinYMin meet")
+				.attr("viewBox", "-400 0 1350 654")
+				.classed("svg-content",true)
     	.append("g");
 panel2.append("rect")
              			.attr("x", 0)
