@@ -21,7 +21,6 @@ html, body {
   stroke-width: 2px;
 }
 
-
 .svg-container {
     display: inline-block;
     position: relative;
@@ -35,4 +34,5 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
+    background-color: #E9FCF3;
 }
